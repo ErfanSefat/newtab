@@ -1,0 +1,41 @@
+{
+    "links":[
+        {
+            "name": "Github",
+            "link" : "https://github.com/"
+        },{
+            "name": "Behance",
+            "link" : "https://www.behance.net/erfansefat"
+        },{
+            "name": "YouTube",
+            "link" : "https://www.youtube.com/feed/subscriptions"
+        },{
+            "name": "Spotify",
+            "link" : "https://open.spotify.com/"
+        },{
+            "name": "Wordle",
+            "link" : "https://www.nytimes.com/games/wordle/index.html"
+        },{
+            "name": "Twitter",
+            "link" : "https://twitter.com/home"
+        },{
+            "name": "Instagram",
+            "link" : "https://www.instagram.com/"
+        },{
+            "name": "ChatGPT",
+            "link" : "https://chat.openai.com/"
+        },{
+            "name": "Shatel",
+            "link" : "https://account.shatel.ir/login"
+        },{
+            "name": "Amanj",
+            "link" : "https://amanjlms.ir/members/1683006/"
+        },{
+            "name": "LMS",
+            "link" : "http://lms.ikiu.ac.ir/my/"
+        },{
+            "name": "Golestan",
+            "link" : "https://golestan.ikiu.ac.ir/forms/authenticateuser/main.htm"
+        }
+    ]
+}

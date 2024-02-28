@@ -1,0 +1,55 @@
+@font-face {
+    font-family: against;
+    src: url(./against\ regular.ttf);
+}
+*{transition: all 100ms;}
+:root{--theme: #2D241E;}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("./image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+    position: absolute;
+    height: 100dvh;
+    width: 100dvw;
+    object-fit: cover;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.date{position: absolute; left : 10px   }
+.clock{
+    text-align: center;
+    font-size: 80px;
+    color: var(--theme);
+    line-height: 80px;
+    font-family: against;
+    position: absolute;
+    top: 85px;
+}
+.links{width: 40dvw; display: flex; justify-content: center; position: absolute; bottom: 100px; align-items: end;}
+.link{
+    color: var(--theme);
+    /* border: solid 1px var(--theme); */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-family: Helvetica;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    margin: 0px 5px;
+    box-shadow: 0px 8px 13px 5px rgba(0, 0, 0, 0.3);
+    height: 17px;
+}
+.link:hover{
+    height: 22px;
+    font-size: 19px;
+}
